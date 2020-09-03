@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6243423100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GitHubLoginStepDef.setupStepEnv()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User is trying to singin in GitHub using Invalid username and password",
+        "description": "",
+        "id": "github-login-functanility;user-is-trying-to-singin-in-github-using-invalid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 53495800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GitHubLoginStepDef.tearDownStepEnv()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2956848300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on GitHub login Page",
+            "match": {
+              "location": "GitHubLoginStepDef.user_is_on_GitHub_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 639634600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter Invalid username and password",
+            "match": {
+              "location": "GitHubLoginStepDef.user_enter_Invalid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34141200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\u0027Incorrect username or password.\u0027 Message should display",
+            "match": {
+              "location": "GitHubLoginStepDef.incorrect_username_or_password_Message_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5349687700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GitHubLoginStepDef.setupStepEnv()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User is trying to singin in GitHub using valid username and password",
+        "description": "",
+        "id": "github-login-functanility;user-is-trying-to-singin-in-github-using-valid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 64850400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GitHubLoginStepDef.tearDownStepEnv()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2179220400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on GitHub login Page",
+            "match": {
+              "location": "GitHubLoginStepDef.user_is_on_GitHub_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter valid username and password",
+            "match": {
+              "location": "GitHubLoginStepDef.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 364100,
+              "error_message": "java.lang.AssertionError: Some Assertion Message\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat com.cg.project.stepdef.GitHubLoginStepDef.user_should_successfully_Sigin_on_his_Github_Account(GitHubLoginStepDef.java:54)\r\n\tat ✽.Then user should successfully Sigin on his Github Account(GitHubLoginFeature.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "user should successfully Sigin on his Github Account",
+            "match": {
+              "location": "GitHubLoginStepDef.user_should_successfully_Sigin_on_his_Github_Account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Github Login functanility",
+    "description": "",
+    "id": "github-login-functanility",
+    "keyword": "Feature",
+    "uri": "GitHubLoginFeature.feature"
+  }
+]
